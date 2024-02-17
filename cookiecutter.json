@@ -3,6 +3,5 @@
   "readable_name": "Project Name",
   "github_username": "ScreenPyHQ",
   "author": "Perry Goy",
-  "is_sub_package": true,
-  "year": "{% now 'utc', '%Y' %}",
+  "is_sub_package": true
 }
