@@ -2,5 +2,8 @@
   "project_name": "python_project_name",
   "readable_name": "Project Name",
   "github_username": "ScreenPyHQ",
-  "is_sub_package": true
+  "author": "Perry Goy",
+  "is_sub_package": true,
+  "year": "{% now 'utc', '%Y' %}",
+  "_extensions": ["jinja2_time.TimeExtension"]
 }
