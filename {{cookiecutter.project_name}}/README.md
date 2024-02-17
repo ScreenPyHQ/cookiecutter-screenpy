@@ -52,5 +52,3 @@ You want to contribute? Great! Here are the things you should do before submitti
 1. Create pull-request from your branch.
 
 That's it! :)
-
-add some shit to the template to see if it updates
