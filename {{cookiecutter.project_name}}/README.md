@@ -22,7 +22,7 @@ TITLE DISAPPEARS.
 Installation
 ------------
     pip install {{cookiecutter.project_name}}
-{% if is_sub_package %}
+{% if cookiecutter.is_sub_package %}
 
 or
 
@@ -33,7 +33,7 @@ or
 Documentation
 ----------
 Please check out the [Read The Docs documentation](https://{{cookiecutter.project_name | replace("_", "-")}}-docs.readthedocs.io/en/latest/) for the latest information about this module!
-{% if is_sub_package %}
+{% if cookiecutter.is_sub_package %}
 You can also read the [ScreenPy Docs](https://screenpy-docs.readthedocs.io/en/latest/) for more information about ScreenPy in general.
 {%- endif %}
 
