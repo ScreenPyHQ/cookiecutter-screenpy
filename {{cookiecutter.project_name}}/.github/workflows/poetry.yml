@@ -1,3 +1,4 @@
+{% raw -%}
 name: Poetry
 
 on:
@@ -37,3 +38,4 @@ jobs:
         
       - name: Check lock file
         run: poetry lock --check
+{%- endraw %}

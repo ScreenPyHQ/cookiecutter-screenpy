@@ -1,3 +1,4 @@
+{% raw -%}
 name: Tests
 
 on:
@@ -34,3 +35,4 @@ jobs:
 
     - name: Test with tox
       run: tox
+{%- endraw %}
