@@ -35,7 +35,7 @@ jobs:
 
       - name: Check toml structure
         run: poetry check
-        
+
       - name: Check lock file
         run: poetry lock --check
 {%- endraw %}
