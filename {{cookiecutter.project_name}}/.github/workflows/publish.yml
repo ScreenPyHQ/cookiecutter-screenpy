@@ -24,9 +24,9 @@ jobs:
           pip install
           poetry
           --user
-{% raw -%}
-      - name: Build {{cookiecutter.readable_name}}
 {%- endraw %}
+      - name: Build {{cookiecutter.readable_name}}
+{% raw -%}
         run: >-
           python -m
           poetry
