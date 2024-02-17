@@ -24,7 +24,7 @@ jobs:
           pip install
           poetry
           --user
-      - name: Build ScreenPy
+      - name: Build {{cookiecutter.readable_name}}
         run: >-
           python -m
           poetry
