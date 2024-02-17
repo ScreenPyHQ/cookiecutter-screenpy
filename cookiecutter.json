@@ -5,5 +5,4 @@
   "author": "Perry Goy",
   "is_sub_package": true,
   "year": "{% now 'utc', '%Y' %}",
-  "_extensions": ["jinja2_time.TimeExtension"]
 }
