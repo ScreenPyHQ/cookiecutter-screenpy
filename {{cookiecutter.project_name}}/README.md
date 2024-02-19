@@ -1,5 +1,5 @@
-{{cookiecutter.project_name}}
-{% for _ in cookiecutter.project_name %}={% endfor %}
+{{cookiecutter.readable_name}}
+{% for _ in cookiecutter.readable_name %}={% endfor %}
 
 [![Build Status](../../actions/workflows/tests.yml/badge.svg)](../../actions/workflows/tests.yml)
 [![Build Status](../../actions/workflows/lint.yml/badge.svg)](../../actions/workflows/lint.yml)
