@@ -131,7 +131,7 @@ split-on-trailing-comma = false
 
 [tool.poetry]
 name = "{{cookiecutter.project_name}}"
-version = "{{cookiecutter.version}}"
+version = "0.0.0"
 description = ""
 authors = ["{{cookiecutter.author}} <perry.goy@gmail.com>"]
 maintainers = []
