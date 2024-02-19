@@ -128,27 +128,3 @@ split-on-trailing-comma = false
 ################################################################################
 #                 END OF BOILERPLATE ScreenPyHQ CONFIGURATIONS                 #
 ################################################################################
-
-[tool.poetry]
-name = "{{cookiecutter.project_name}}"
-authors = ["{{cookiecutter.author}} <perry.goy@gmail.com>"]
-license = "{{cookiecutter.license}}"
-repository = "https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_name}}"
-documentation = "https://{{cookiecutter.project_name | replace("_", "-")}}-docs.readthedocs.io"
-readme = "README.md"
-classifiers = [
-    "Operating System :: OS Independent",
-    "Programming Language :: Python :: 3 :: Only",
-    "Programming Language :: Python :: 3.8",
-    "Programming Language :: Python :: 3.9",
-    "Programming Language :: Python :: 3.10",
-    "Programming Language :: Python :: 3.11",
-    "Programming Language :: Python :: 3.12",
-    "Development Status :: 5 - Production/Stable",
-    "Intended Audience :: Developers",
-    "Topic :: Software Development :: Quality Assurance",
-    "Topic :: Software Development :: Testing",
-    "Topic :: Software Development :: Testing :: BDD",
-    "Natural Language :: English",
-    "License :: OSI Approved :: {{cookiecutter.license}} License",
-]
