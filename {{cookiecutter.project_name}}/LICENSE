@@ -1,4 +1,4 @@
-MIT License
+{{cookiecutter.license}} License
 
 Copyright (c) 2019-{% now 'local', '%Y' %} {{cookiecutter.author}}
 
