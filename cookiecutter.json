@@ -1,9 +1,10 @@
 {
   "project_name": "python_project_name",
   "readable_name": "Project Name",
-  "github_username": "ScreenPyHQ",
+  "version": "0.0.0",
   "author": "Perry Goy",
   "author_email": "perry.goy@gmail.com",
   "is_sub_package": true,
-  "license": "MIT"
+  "license": "MIT",
+  "github_username": "ScreenPyHQ"
 }
