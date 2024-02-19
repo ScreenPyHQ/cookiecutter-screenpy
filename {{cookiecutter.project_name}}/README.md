@@ -21,13 +21,11 @@ TITLE DISAPPEARS.
 
 Installation
 ------------
-    pip install {{cookiecutter.project_name}}
-{% if cookiecutter.is_sub_package %}
+    pip install {{cookiecutter.project_name}}{% if cookiecutter.is_sub_package %}
 
 or
 
-    pip install screenpy[{{cookiecutter.project_name | replace("screenpy_", "")}}]
-{%- endif %}
+    pip install screenpy[{{cookiecutter.project_name | replace("screenpy_", "")}}]{%- endif %}
 
 
 Documentation
