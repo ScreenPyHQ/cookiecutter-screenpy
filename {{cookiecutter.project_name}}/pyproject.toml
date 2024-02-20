@@ -136,7 +136,7 @@ version = "0.0.0"
 description = ""
 authors = ["{{cookiecutter.author}} <perry.goy@gmail.com>"]
 maintainers = []
-license = "{{cookiecutter.license}}"
+license = "MIT"
 repository = "https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_name}}"
 documentation = "https://{{cookiecutter.project_name | replace("_", "-")}}-docs.readthedocs.io"
 readme = "README.md"
@@ -154,7 +154,7 @@ classifiers = [
     "Topic :: Software Development :: Testing",
     "Topic :: Software Development :: Testing :: BDD",
     "Natural Language :: English",
-    "License :: OSI Approved :: {{cookiecutter.license}} License",
+    "License :: OSI Approved :: MIT License",
 ]
 
 # It's possible to add optional dependencies with the poetry CLI tool using:
