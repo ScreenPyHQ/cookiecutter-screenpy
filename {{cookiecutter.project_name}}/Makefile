@@ -42,7 +42,6 @@ requirements:
 
 .PHONY: requirements
 
-
 cruft-update:
 	cruft update --allow-untracked-files
 
